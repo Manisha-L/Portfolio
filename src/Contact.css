@@ -1,0 +1,9 @@
+.contact-container {
+  background: black;
+  padding: 3% 25% 3% 25%;
+  margin: 0px 5px 5px 5px;
+  border-radius: 10px;
+}
+.contact {
+  color: white;
+}
