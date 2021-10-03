@@ -22,7 +22,11 @@ const Home = () => {
           <h1 className="name">MANISHA LAKSHMIPATHULA</h1>
         </div>
       </div>
-      <div className="image-container"></div>
+      <div className="image-container">
+        <div className="image-con">
+          <div className="my-pic"></div>
+        </div>
+      </div>
       <div className="intro-container">
         <p className="hi">Hi! I'm</p>
         <p className="manisha">Manisha</p>
