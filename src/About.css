@@ -4,54 +4,40 @@
     height: 100vh;
   }
   .about {
-    background-color: #981937;
+    background-color: rgb(245 29 29);
     height: 55.5625px;
     font-weight: normal;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: Gold;
+    color: gold;
   }
   .description {
-    color: black;
-    padding: 0px 5px;
+    color: white;
+    padding: 20px 10px;
     text-align: justify;
   }
-  .tech-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -30px;
-    padding: 0px 5px;
-  }
-  .tech-title {
-    width: 50%;
-    height: 55.5625px;
-    background-color: #981937;
+  .education-title {
+    border-radius: 10px;
+    margin: 10px 50px;
+    background-color: rgb(245 29 29);
     display: flex;
     justify-content: center;
     color: Gold;
     align-items: center;
     font-size: 1.5rem;
     font-weight: normal;
+    padding: 5px;
   }
-
-  .technologies-list {
-    width: 100%;
-    margin: -5px 0 0 -30px;
-    padding-top: 5px;
-    background-color: #981937;
-    display: flex;
-    height: 180px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  .education-container {
+    border-radius: 10px;
+    padding: 20px 10px;
   }
-  .technologies-listItem {
-    list-style: none;
+  .education {
+    color: Gold;
   }
-  .tech-image {
-    width: 60px;
-    height: 60px;
+  .uni {
+    color: white;
   }
 }

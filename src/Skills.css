@@ -1,0 +1,75 @@
+@media all and (min-width: 300px) {
+  .Skills-container {
+    width: 100%;
+    height: 280vh;
+  }
+  .skills-title {
+    background-color: rgb(245 29 29);
+    height: 55.5625px;
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+  }
+  .heading {
+    color: gold;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .Skills-list {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Skills-listItem {
+    list-style: none;
+    padding: 10px 0px;
+  }
+  .Skills-image {
+    width: 130px;
+    height: 130px;
+  }
+  .SkillsImage-name {
+    color: Gold;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .tools-title {
+    border-radius: 10px;
+    margin: 20px 50px;
+    background-color: rgb(245 29 29);
+    display: flex;
+    justify-content: center;
+    color: Gold;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 5px;
+  }
+  .tools-list {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tools-listItem {
+    list-style: none;
+    padding: 10px 0px;
+  }
+  .tool-image {
+    width: 100px;
+    height: 100px;
+  }
+  .toolImage-name {
+    color: Gold;
+    display: flex;
+    justify-content: center;
+  }
+}

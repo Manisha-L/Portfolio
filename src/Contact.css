@@ -1,9 +1,28 @@
-.contact-container {
-  background: black;
-  padding: 3% 25% 3% 25%;
-  margin: 0px 5px 5px 5px;
-  border-radius: 10px;
-}
-.contact {
-  color: white;
+@media all and (min-width: 300px) {
+  .contact-container {
+    width: 100%;
+    height: 100vh;
+  }
+  .contact-title {
+    background-color: rgb(245 29 29);
+    height: 55.5625px;
+    font-weight: normal;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+  }
+  .work {
+    color: gold;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .contact-description {
+    color: white;
+    padding: 20px 10px;
+    text-align: justify;
+  }
 }
