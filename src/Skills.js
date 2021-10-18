@@ -8,7 +8,7 @@ const Skills = () => {
       <ul className="Skills-list">
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/HTML.svg"}
+            src={process.env.PUBLIC_URL + "./images/HTML.png"}
             className="Skills-image"
             alt="HTML"
           ></img>
@@ -17,7 +17,7 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/CSS.svg"}
+            src={process.env.PUBLIC_URL + "./images/CSS.png"}
             className="Skills-image"
             alt="HTML"
           ></img>
@@ -36,7 +36,7 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/javascript.svg"}
+            src={process.env.PUBLIC_URL + "./images/javascript.png"}
             className="Skills-image"
             alt="JS"
           />{" "}
@@ -55,12 +55,13 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/REACT.svg"}
+            src={process.env.PUBLIC_URL + "./images/React.png"}
             className="Skills-image"
             alt="REACT"
           ></img>
           <br />
-          <div className="SkillsImage-name">React and React Native</div>
+          <div className="SkillsImage-name">React and</div>
+          <div className="SkillsImage-name">React Native</div>
         </li>
         <li className="Skills-listItem">
           <img
@@ -78,7 +79,7 @@ const Skills = () => {
         <ul className="tools-list">
           <li className="tools-listItem">
             <img
-              src={process.env.PUBLIC_URL + "./images/github.jpg"}
+              src={process.env.PUBLIC_URL + "./images/github.png"}
               className="tool-image"
               alt="Github"
             ></img>
@@ -94,47 +95,7 @@ const Skills = () => {
           </li>
         </ul>
       </div>
-
-      {/* <div>
-          <h2 className="os-title">Operating Systems</h2>
-          <ul className="os-list">
-            <li className="os-listItem">
-              <img
-                src={process.env.PUBLIC_URL + "./images/github.jpg"}
-                className="os-image"
-                alt="Github"
-              ></img>
-              <div className="os-name">Github</div>
-            </li>
-            <li className="os-listItem">
-              <img
-                src={process.env.PUBLIC_URL + "./images/Visual_Studio_Code.svg"}
-                className="os-image"
-                alt="Visual Studio"
-              ></img>
-              <div className="os-name">Visual Studio</div>
-            </li>
-          </ul>
-        </div> */}
     </div>
-    // </div>
   );
 };
 export default Skills;
-{
-  /* <li>
-              <img
-                src={require("../../images/Visual_Studio_Code_1.35_icon.svg")}
-                alt=""
-              ></img>
-              Visual Studio Code
-            </li>
-            <li>
-              <img src={require("../../images/Codepen-logo.png")} alt=""></img>
-              Codepen
-            </li>
-            <li>
-              <img src={require("../../images/Figma-logo.svg")} alt=""></img>
-              Figma
-            </li> */
-}

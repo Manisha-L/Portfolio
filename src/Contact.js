@@ -1,4 +1,5 @@
 import "./Contact.css";
+
 const Contact = () => {
   return (
     <div id="contact" className="contact-container">
@@ -6,11 +7,44 @@ const Contact = () => {
       <h2 className="work"> Let's Work Together</h2>
       <p className="contact-description">
         I'm currently open to employment opportunities and interested in
-        full-time permanent jobs, but if you have a project you'd like to
-        discuss, just contact me
-        {/* by using the form below or find
-        me on the other online communication platforms. */}
+        full-time permanent jobs.
       </p>
+      <div className="contacts">
+        <img
+          className="contacts-image"
+          src={process.env.PUBLIC_URL + "./images/cv.png"}
+          alt="CV"
+        />
+
+        <div className="contacts-image-name">CV</div>
+        <a
+          href="https://www.linkedin.com/in/isha-dev-26b783218"
+          target="_blank"
+        >
+          <img
+            className="contacts-image"
+            src={process.env.PUBLIC_URL + "./images/linkedIn.png"}
+            alt="Linked in"
+          />
+        </a>
+        <div className="contacts-image-name">Linked in</div>
+        <a href="mailto:isha3.dev@gmail.com" target="_blank">
+          <img
+            className="contacts-image"
+            src={process.env.PUBLIC_URL + "./images/email.png"}
+            alt="Email"
+          />
+        </a>
+        <div className="contacts-image-name">Email</div>
+        <a href="https://github.com/Manisha-L/" target="_blank">
+          <img
+            className="contacts-image"
+            src={process.env.PUBLIC_URL + "./images/github.png"}
+            alt="Github"
+          />
+        </a>
+        <div className="contacts-image-name">Github</div>
+      </div>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import "./App.css";
 
 import ParticlesBackground from "./ParticlesBackground";
+import Projects from "./Projects";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Projects />
       <Contact />
       <ParticlesBackground />
     </div>

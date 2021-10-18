@@ -104,15 +104,19 @@ const Home = () => {
           <h1 className="name">MANISHA LAKSHMIPATHULA</h1>
         </div>
       </div>
+
       <div className="image-container">
-        <div className="image-con">
-          <div className="my-pic"></div>
+        <img
+          src={process.env.PUBLIC_URL + "./images/myPic.png"}
+          className="my-pic"
+          alt="HTML"
+        ></img>
+
+        <div className="intro-container">
+          <p className="hi">Hi! I'm</p>
+          <p className="manisha">Manisha</p>
+          <p className="profession">-A passionate Software Developer</p>
         </div>
-      </div>
-      <div className="intro-container">
-        <p className="hi">Hi! I'm</p>
-        <p className="manisha">Manisha</p>
-        <p className="profession">-A passionate Software Developer</p>
       </div>
     </div>
   );
