@@ -4,25 +4,23 @@
     height: 100vh;
   }
   .skills-title {
-    background-color: rgb(245 29 29);
+    background-color: rgba(255, 255, 255, 0.2);
     height: 55.5625px;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: gold;
   }
-  .heading {
-    color: gold;
+  .skills-description {
+    color: white;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-size: 1.2rem;
     font-weight: normal;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
   }
-
   .Skills-list {
-    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -30,6 +28,7 @@
   .Skills-listItem {
     list-style: none;
     padding: 10px 0px;
+
     margin: 20px;
   }
   .Skills-image {
@@ -42,20 +41,15 @@
     justify-content: center;
   }
   .tools-title {
-    border-radius: 10px;
-    margin: 20px 50px;
-    background-color: rgb(245 29 29);
-    display: flex;
-    justify-content: center;
     color: Gold;
-    align-items: center;
-    font-size: 1.5rem;
+    text-align: center;
     font-weight: normal;
-    padding: 5px;
+    font-size: 1.5rem;
+    text-decoration: underline grey;
   }
   .tools-list {
+    padding: 20px 10px;
     width: 100%;
-
     display: flex;
     justify-content: space-evenly;
   }
@@ -71,5 +65,27 @@
     color: Gold;
     display: flex;
     justify-content: center;
+  }
+}
+@media all and (min-width: 600px) {
+  .skills-title {
+    font-size: 2.5rem;
+  }
+  .skills-description {
+    margin: 30px 0px 20px 0px;
+
+    font-size: 1.5rem;
+  }
+  .tools-wrapper {
+    padding: 50px 10px;
+  }
+  .tools-title {
+    font-size: 2rem;
+  }
+  .tools-list {
+    justify-content: center;
+  }
+  .tools-listItem {
+    padding: 0px 50px;
   }
 }

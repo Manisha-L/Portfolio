@@ -1,14 +1,14 @@
 @media all and (min-width: 300px) {
   .projects-container {
-    margin-top: 600px;
+    margin-top: 520px;
     width: 100%;
     height: 100vh;
   }
   .projects-title {
-    background-color: rgb(245 29 29);
+    background-color: rgba(255, 255, 255, 0.2);
     height: 55.5625px;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,8 +16,9 @@
   }
   .projects-description {
     color: white;
-    margin: 20px 10px;
+    padding: 20px 10px;
     text-align: center;
+    font-size: 1.2rem;
   }
   .projects-wrapper {
     display: flex;
@@ -28,21 +29,19 @@
   .music {
     width: 90%;
     height: 320px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
     position: relative;
   }
   .budgetTracker-image {
     position: absolute;
-
     object-fit: cover;
     opacity: 0.1;
     z-index: -1;
     width: 90%;
     height: 100%;
   }
-
   .musicPlayer-image {
     position: absolute;
 
@@ -62,16 +61,16 @@
 
   .about-project {
     color: white;
-    font-size: 1rem;
-    font-weight: normal;
+    font-size: 1.02rem;
+    font-weight: lighter;
     padding: 0px 10px;
     text-align: center;
   }
-
   .stack {
     color: gold;
     padding: 0px 10px;
     text-align: center;
+    font-size: 1.1rem;
   }
   .budget-button-container {
     margin-top: 45px;
@@ -84,13 +83,43 @@
     justify-content: space-around;
   }
   .project-buttons {
+    font-family: inherit;
+
     height: 50px;
     width: 120px;
     background-color: rgb(1, 1, 32);
     color: gold;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 5px;
     border-radius: 5px;
     border: rgb(1, 1, 32);
+  }
+}
+@media all and (min-width: 600px) {
+  .projects-container {
+    margin-top: 100px;
+  }
+  .projects-title {
+    font-size: 2.5rem;
+  }
+  .projects-description {
+    margin: 30px 0px 20px 0px;
+    font-size: 1.5rem;
+  }
+  .budget,
+  .music {
+    width: 50%;
+  }
+  .budget-button-container {
+    margin-top: 75px;
+  }
+  .music-button-container {
+    margin-top: 50px;
+  }
+  .about-project {
+    font-size: 1.2rem;
+  }
+  .stack {
+    font-size: 1.3rem;
   }
 }

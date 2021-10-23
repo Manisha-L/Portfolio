@@ -1,14 +1,24 @@
 import "./Projects.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <div id="projects" className="projects-container">
-      <h1 className="projects-title">{"<projects />"}</h1>
+      <h1 className="projects-title">Projects</h1>
+
       <p className="projects-description">
         Personal projects I have worked on to improve my skills and gain
         experience in front-end
       </p>
       <div className="projects-wrapper">
-        <div className="budget">
+        <div data-aos="fade-right" className="budget">
           <img
             src={process.env.PUBLIC_URL + "./images/BudgetTrackerImage.png"}
             className="budgetTracker-image"
@@ -18,7 +28,7 @@ const Projects = () => {
           <br />
           <h3 className="about-project">
             This project was initially developed using javascript with React.
-            Upon learning Typescript, upgraded this project to TypeScript.
+            Upon learning TypeScript, upgraded this project to TypeScript.
           </h3>
           <br />
 
@@ -40,7 +50,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="music">
+        <div data-aos="fade-left" className="music">
           <img
             src={process.env.PUBLIC_URL + "./images/MusicPlayerImage.png"}
             className="musicPlayer-image"

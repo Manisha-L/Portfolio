@@ -1,30 +1,31 @@
 @media all and (min-width: 300px) {
   .contact-container {
-    margin-top: 300px;
+    margin-top: 340px;
     width: 100%;
     height: 100vh;
   }
   .contact-title {
-    background-color: rgb(245 29 29);
+    background-color: rgba(255, 255, 255, 0.2);
     height: 55.5625px;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: gold;
   }
-  .work {
-    color: gold;
-    font-weight: normal;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
+
   .contact-description {
     color: white;
     padding: 20px 10px;
     text-align: center;
+    font-size: 1.2rem;
+  }
+  .work {
+    color: white;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
   }
   .contacts {
     margin-top: 10px;
@@ -32,7 +33,6 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    /* background-color: red; */
     height: 350px;
   }
   .contacts-image {
@@ -42,10 +42,29 @@
     border-radius: 10px;
     justify-content: center;
   }
-
   .contacts-image-name {
     color: Gold;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .contact-container {
+    margin-top: 350px;
+  }
+  .contact-title {
+    font-size: 2.5rem;
+  }
+  .contact-description {
+    font-size: 1.5rem;
+    padding: 50px 10px 10px 10px;
+  }
+  .contacts {
+    margin-top: -20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .contacts-image-name {
+    text-align: center;
   }
 }

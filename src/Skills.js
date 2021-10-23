@@ -1,11 +1,19 @@
 import "./Skills.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <div id="skills" className="Skills-container">
-      <h1 className="skills-title">{"<Skills />"}</h1>
-      <h3 className="heading">Some of my coding skills</h3>
-      <ul className="Skills-list">
+      <h1 className="skills-title">Skills</h1>
+      <h3 className="skills-description">Some of my coding skills</h3>
+      <ul data-aos="zoom-in" className="Skills-list">
         <li className="Skills-listItem">
           <img
             src={process.env.PUBLIC_URL + "./images/HTML.png"}
@@ -74,9 +82,9 @@ const Skills = () => {
         </li>
       </ul>
 
-      <div>
+      <div className="tools-wrapper">
         <h2 className="tools-title">Tools</h2>
-        <ul className="tools-list">
+        <ul data-aos="zoom-in" className="tools-list">
           <li className="tools-listItem">
             <img
               src={process.env.PUBLIC_URL + "./images/github.png"}
