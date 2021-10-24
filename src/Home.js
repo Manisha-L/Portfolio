@@ -306,7 +306,7 @@ const Home = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
             className="home-image"
-            src={process.env.PUBLIC_URL + "./images/github.png"}
+            src={process.env.PUBLIC_URL + "/images/github.png"}
             alt="Github"
           />
         </a>
