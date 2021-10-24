@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d9ac617a.chunk.css",
-    "main.js": "/portfolio/static/js/main.4de5706c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4de5706c.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.5483d5da.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5483d5da.js.map",
-    "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.5e10faf5.chunk.js": "/portfolio/static/js/2.5e10faf5.chunk.js",
-    "static/js/2.5e10faf5.chunk.js.map": "/portfolio/static/js/2.5e10faf5.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.7fc9bc2b.chunk.css.map": "/portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.d9ac617a.chunk.css.map": "/portfolio/static/css/main.d9ac617a.chunk.css.map",
-    "static/js/2.5e10faf5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5e10faf5.chunk.js.LICENSE.txt",
-    "static/media/CV.123fa694.pdf": "/portfolio/static/media/CV.123fa694.pdf"
+    "main.css": "/Portfolio/static/css/main.d9ac617a.chunk.css",
+    "main.js": "/Portfolio/static/js/main.466a9e39.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.466a9e39.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.1df2450b.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1df2450b.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/Portfolio/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.5e10faf5.chunk.js": "/Portfolio/static/js/2.5e10faf5.chunk.js",
+    "static/js/2.5e10faf5.chunk.js.map": "/Portfolio/static/js/2.5e10faf5.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.d9ac617a.chunk.css.map": "/Portfolio/static/css/main.d9ac617a.chunk.css.map",
+    "static/js/2.5e10faf5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5e10faf5.chunk.js.LICENSE.txt",
+    "static/media/CV.123fa694.pdf": "/Portfolio/static/media/CV.123fa694.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.5483d5da.js",
+    "static/js/runtime-main.1df2450b.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.5e10faf5.chunk.js",
     "static/css/main.d9ac617a.chunk.css",
-    "static/js/main.4de5706c.chunk.js"
+    "static/js/main.466a9e39.chunk.js"
   ]
 }
