@@ -27,8 +27,9 @@ const Projects = () => {
           <h1 className="budget-title">Budget Tracker</h1>
           <br />
           <h3 className="about-project">
-            This project was initially developed using javascript with React.
-            Upon learning TypeScript, upgraded this project to TypeScript.
+            Budget Tracker is a responsive web application for money management
+            which helps to keep track of income and expense transactions which
+            features nice visualizations using Chart.js library
           </h3>
           <br />
 
@@ -59,9 +60,9 @@ const Projects = () => {
           <h1 className="music-title">Music Player</h1>
           <br />
           <h3 className="about-project">
-            This project is developed using javascript with React-Native
-            framework. After learning web development, learnt React-Native as it
-            used to build mobile apps on both Android and ios.
+            Music Player is a mobile application which runs on both Android and
+            iOS devices to play music. It allows user to play/pause/play
+            next/play previous song using expo-av library
           </h3>
           <br />
 

@@ -4,6 +4,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { useState } from "react";
 const Home = () => {
   const [burger, setBurger] = useState(false);
+  const [itemClicked, setItemClicked] = useState("");
   return (
     <div id="home" className="container">
       <div className="header">
@@ -39,10 +40,22 @@ const Home = () => {
               <li
                 className="nav-item"
                 onClick={() => {
+                  if (window.scrollY > 0) {
+                    window.scrollTo({
+                      top:
+                        window.scrollY +
+                        document.getElementById("about").getBoundingClientRect()
+                          .top -
+                        50,
+                      behavior: "smooth",
+                    });
+                    setBurger(!burger);
+                    return;
+                  }
                   window.scrollTo({
                     top:
                       document.getElementById("about").getBoundingClientRect()
-                        .top - 55,
+                        .top - 50,
                     behavior: "smooth",
                   });
 
@@ -54,10 +67,23 @@ const Home = () => {
               <li
                 className="nav-item"
                 onClick={() => {
+                  if (window.scrollY > 0) {
+                    window.scrollTo({
+                      top:
+                        window.scrollY +
+                        document
+                          .getElementById("skills")
+                          .getBoundingClientRect().top -
+                        50,
+                      behavior: "smooth",
+                    });
+                    setBurger(!burger);
+                    return;
+                  }
                   window.scrollTo({
                     top:
                       document.getElementById("skills").getBoundingClientRect()
-                        .top - 55,
+                        .top - 50,
                     behavior: "smooth",
                   });
 
@@ -69,11 +95,24 @@ const Home = () => {
               <li
                 className="nav-item"
                 onClick={() => {
+                  if (window.scrollY > 0) {
+                    window.scrollTo({
+                      top:
+                        window.scrollY +
+                        document
+                          .getElementById("projects")
+                          .getBoundingClientRect().top -
+                        50,
+                      behavior: "smooth",
+                    });
+                    setBurger(!burger);
+                    return;
+                  }
                   window.scrollTo({
                     top:
                       document
                         .getElementById("projects")
-                        .getBoundingClientRect().top - 55,
+                        .getBoundingClientRect().top - 50,
                     behavior: "smooth",
                   });
 
@@ -85,10 +124,23 @@ const Home = () => {
               <li
                 className="nav-item"
                 onClick={() => {
+                  if (window.scrollY > 0) {
+                    window.scrollTo({
+                      top:
+                        window.scrollY +
+                        document
+                          .getElementById("contact")
+                          .getBoundingClientRect().top -
+                        50,
+                      behavior: "smooth",
+                    });
+                    setBurger(!burger);
+                    return;
+                  }
                   window.scrollTo({
                     top:
                       document.getElementById("contact").getBoundingClientRect()
-                        .top - 55,
+                        .top - 50,
                     behavior: "smooth",
                   });
 
@@ -106,8 +158,13 @@ const Home = () => {
         {/* <div className="header-forLarge"> */}
         <ul className="nav-conLarge">
           <li
-            className="nav-itemLarge"
+            className={
+              itemClicked === "home"
+                ? " nav-itemLarge  nav-itemLarge-active "
+                : "nav-itemLarge "
+            }
             onClick={() => {
+              setItemClicked("home");
               window.scrollTo({
                 top:
                   document.getElementById("home").getBoundingClientRect().top -
@@ -119,12 +176,28 @@ const Home = () => {
             Home
           </li>
           <li
-            className="nav-itemLarge"
+            className={
+              itemClicked === "about"
+                ? " nav-itemLarge  nav-itemLarge-active "
+                : "nav-itemLarge "
+            }
             onClick={() => {
+              setItemClicked("about");
+              if (window.scrollY > 0) {
+                window.scrollTo({
+                  top:
+                    window.scrollY +
+                    document.getElementById("about").getBoundingClientRect()
+                      .top -
+                    65,
+                  behavior: "smooth",
+                });
+                return;
+              }
               window.scrollTo({
                 top:
                   document.getElementById("about").getBoundingClientRect().top -
-                  55,
+                  65,
                 behavior: "smooth",
               });
             }}
@@ -132,12 +205,28 @@ const Home = () => {
             About
           </li>
           <li
-            className="nav-itemLarge"
+            className={
+              itemClicked === "skills"
+                ? " nav-itemLarge  nav-itemLarge-active "
+                : "nav-itemLarge "
+            }
             onClick={() => {
+              setItemClicked("skills");
+              if (window.scrollY > 0) {
+                window.scrollTo({
+                  top:
+                    window.scrollY +
+                    document.getElementById("skills").getBoundingClientRect()
+                      .top -
+                    65,
+                  behavior: "smooth",
+                });
+                return;
+              }
               window.scrollTo({
                 top:
                   document.getElementById("skills").getBoundingClientRect()
-                    .top - 55,
+                    .top - 65,
                 behavior: "smooth",
               });
             }}
@@ -145,12 +234,28 @@ const Home = () => {
             Skills
           </li>
           <li
-            className="nav-itemLarge"
+            className={
+              itemClicked === "projects"
+                ? " nav-itemLarge  nav-itemLarge-active "
+                : "nav-itemLarge "
+            }
             onClick={() => {
+              setItemClicked("projects");
+              if (window.scrollY > 0) {
+                window.scrollTo({
+                  top:
+                    window.scrollY +
+                    document.getElementById("projects").getBoundingClientRect()
+                      .top -
+                    65,
+                  behavior: "smooth",
+                });
+                return;
+              }
               window.scrollTo({
                 top:
                   document.getElementById("projects").getBoundingClientRect()
-                    .top - 55,
+                    .top - 65,
                 behavior: "smooth",
               });
             }}
@@ -158,12 +263,28 @@ const Home = () => {
             Projects
           </li>
           <li
-            className="nav-itemLarge"
+            className={
+              itemClicked === "contact"
+                ? " nav-itemLarge  nav-itemLarge-active "
+                : "nav-itemLarge "
+            }
             onClick={() => {
+              setItemClicked("contact");
+              if (window.scrollY > 0) {
+                window.scrollTo({
+                  top:
+                    window.scrollY +
+                    document.getElementById("contact").getBoundingClientRect()
+                      .top -
+                    65,
+                  behavior: "smooth",
+                });
+                return;
+              }
               window.scrollTo({
                 top:
                   document.getElementById("contact").getBoundingClientRect()
-                    .top - 55,
+                    .top - 65,
                 behavior: "smooth",
               });
             }}
@@ -171,21 +292,12 @@ const Home = () => {
             Contact
           </li>
         </ul>
-        {/* </div> */}
       </div>
-      {/* <div className="imageIntro-wrapper"> */}
-      {/* <div className="image-container">
-          <img
-            src={process.env.PUBLIC_URL + "./images/myPic.png"}
-            className="my-pic"
-            alt="HTML"
-          ></img>
-        </div> */}
+
       <div className="intro-container">
         <p className="first-line">Hi! I'm</p>
         <p className="second-line">Manisha</p>
         <p className="third-line">-A passionate Software Developer</p>
-        {/* </div> */}
       </div>
       <div className="homeImage-container">
         <a href="https://github.com/Manisha-L/" target="_blank">

@@ -2,6 +2,7 @@ import "./Contact.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import CV from "./CV.pdf";
 
 const Contact = () => {
   useEffect(() => {
@@ -19,11 +20,13 @@ const Contact = () => {
       </p>
       <div data-aos="zoom-in" className="contacts">
         <div className="con-image-wrapper">
-          <img
-            className="contacts-image"
-            src={process.env.PUBLIC_URL + "./images/cv.png"}
-            alt="CV"
-          />
+          <a href={CV} target="_blank">
+            <img
+              className="contacts-image"
+              src={process.env.PUBLIC_URL + "./images/cv.png"}
+              alt="CV"
+            />
+          </a>
 
           <div className="contacts-image-name">CV</div>
         </div>
