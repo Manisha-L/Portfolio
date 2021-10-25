@@ -4,7 +4,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { useState } from "react";
 const Home = () => {
   const [burger, setBurger] = useState(false);
-  const [itemClicked, setItemClicked] = useState("");
+
   return (
     <div id="home" className="container">
       <div className="header">
@@ -158,13 +158,8 @@ const Home = () => {
         {/* <div className="header-forLarge"> */}
         <ul className="nav-conLarge">
           <li
-            className={
-              itemClicked === "home"
-                ? " nav-itemLarge  nav-itemLarge-active "
-                : "nav-itemLarge "
-            }
+            className="nav-itemLarge"
             onClick={() => {
-              setItemClicked("home");
               window.scrollTo({
                 top:
                   document.getElementById("home").getBoundingClientRect().top -
@@ -176,13 +171,8 @@ const Home = () => {
             Home
           </li>
           <li
-            className={
-              itemClicked === "about"
-                ? " nav-itemLarge  nav-itemLarge-active "
-                : "nav-itemLarge "
-            }
+            className="nav-itemLarge"
             onClick={() => {
-              setItemClicked("about");
               if (window.scrollY > 0) {
                 window.scrollTo({
                   top:
@@ -205,13 +195,8 @@ const Home = () => {
             About
           </li>
           <li
-            className={
-              itemClicked === "skills"
-                ? " nav-itemLarge  nav-itemLarge-active "
-                : "nav-itemLarge "
-            }
+            className="nav-itemLarge"
             onClick={() => {
-              setItemClicked("skills");
               if (window.scrollY > 0) {
                 window.scrollTo({
                   top:
@@ -234,13 +219,8 @@ const Home = () => {
             Skills
           </li>
           <li
-            className={
-              itemClicked === "projects"
-                ? " nav-itemLarge  nav-itemLarge-active "
-                : "nav-itemLarge "
-            }
+            className="nav-itemLarge"
             onClick={() => {
-              setItemClicked("projects");
               if (window.scrollY > 0) {
                 window.scrollTo({
                   top:
@@ -263,13 +243,8 @@ const Home = () => {
             Projects
           </li>
           <li
-            className={
-              itemClicked === "contact"
-                ? " nav-itemLarge  nav-itemLarge-active "
-                : "nav-itemLarge "
-            }
+            className="nav-itemLarge"
             onClick={() => {
-              setItemClicked("contact");
               if (window.scrollY > 0) {
                 window.scrollTo({
                   top:
@@ -316,7 +291,7 @@ const Home = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
             className="home-image"
-            src={process.env.PUBLIC_URL + "./images/email.png"}
+            src={process.env.PUBLIC_URL + "/images/email.png"}
             alt="Email"
           />
         </a>
@@ -329,7 +304,7 @@ const Home = () => {
             data-aos-easing="linear"
             data-aos-duration="1000"
             className="home-image"
-            src={process.env.PUBLIC_URL + "./images/linkedIn.png"}
+            src={process.env.PUBLIC_URL + "/images/linkedIn.png"}
             alt="Linked in"
           />
         </a>

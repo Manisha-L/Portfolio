@@ -16,7 +16,7 @@ const Skills = () => {
       <ul data-aos="zoom-in" className="Skills-list">
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/HTML.png"}
+            src={process.env.PUBLIC_URL + "/images/HTML.png"}
             className="Skills-image"
             alt="HTML"
           ></img>
@@ -25,7 +25,7 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/CSS.png"}
+            src={process.env.PUBLIC_URL + "/images/CSS.png"}
             className="Skills-image"
             alt="HTML"
           ></img>
@@ -35,7 +35,7 @@ const Skills = () => {
 
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/SASS.svg"}
+            src={process.env.PUBLIC_URL + "/images/SASS.svg"}
             className="Skills-image"
             alt="SASS"
           ></img>
@@ -44,7 +44,7 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/javascript.png"}
+            src={process.env.PUBLIC_URL + "/images/javascript.png"}
             className="Skills-image"
             alt="JS"
           />{" "}
@@ -54,7 +54,7 @@ const Skills = () => {
 
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/TypeScript.png"}
+            src={process.env.PUBLIC_URL + "/images/TypeScript.png"}
             className="Skills-image"
             alt="TypeScript"
           ></img>{" "}
@@ -63,7 +63,7 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/React.png"}
+            src={process.env.PUBLIC_URL + "/images/React.png"}
             className="Skills-image"
             alt="REACT"
           ></img>
@@ -73,7 +73,7 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "./images/Redux.png"}
+            src={process.env.PUBLIC_URL + "/images/Redux.png"}
             className="Skills-image"
             alt="REDUX"
           ></img>
@@ -87,7 +87,7 @@ const Skills = () => {
         <ul data-aos="zoom-in" className="tools-list">
           <li className="tools-listItem">
             <img
-              src={process.env.PUBLIC_URL + "./images/github.png"}
+              src={process.env.PUBLIC_URL + "/images/github.png"}
               className="tool-image"
               alt="Github"
             ></img>
@@ -95,7 +95,7 @@ const Skills = () => {
           </li>
           <li className="tools-listItem">
             <img
-              src={process.env.PUBLIC_URL + "./images/Visual_Studio_Code.svg"}
+              src={process.env.PUBLIC_URL + "/images/Visual_Studio_Code.svg"}
               className="tool-image"
               alt="Visual Studio"
             ></img>

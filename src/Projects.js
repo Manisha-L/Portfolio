@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="projects-wrapper">
         <div data-aos="fade-right" className="budget">
           <img
-            src={process.env.PUBLIC_URL + "./images/BudgetTrackerImage.png"}
+            src={process.env.PUBLIC_URL + "/images/BudgetTrackerImage.png"}
             className="budgetTracker-image"
             alt="BudgetTrackerImage"
           />
@@ -53,7 +53,7 @@ const Projects = () => {
 
         <div data-aos="fade-left" className="music">
           <img
-            src={process.env.PUBLIC_URL + "./images/MusicPlayerImage.png"}
+            src={process.env.PUBLIC_URL + "/images/MusicPlayerImage.png"}
             className="musicPlayer-image"
             alt="MusicPlayerImage"
           />

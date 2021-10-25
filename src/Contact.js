@@ -23,7 +23,7 @@ const Contact = () => {
           <a href={CV} target="_blank">
             <img
               className="contacts-image"
-              src={process.env.PUBLIC_URL + "./images/cv.png"}
+              src={process.env.PUBLIC_URL + "/images/cv.png"}
               alt="CV"
             />
           </a>
@@ -37,7 +37,7 @@ const Contact = () => {
           >
             <img
               className="contacts-image"
-              src={process.env.PUBLIC_URL + "./images/linkedIn.png"}
+              src={process.env.PUBLIC_URL + "/images/linkedIn.png"}
               alt="Linked in"
             />
           </a>
@@ -48,7 +48,7 @@ const Contact = () => {
           <a href="mailto:isha3.dev@gmail.com" target="_blank">
             <img
               className="contacts-image"
-              src={process.env.PUBLIC_URL + "./images/email.png"}
+              src={process.env.PUBLIC_URL + "/images/email.png"}
               alt="Email"
             />
           </a>
@@ -58,7 +58,7 @@ const Contact = () => {
           <a href="https://github.com/Manisha-L/" target="_blank">
             <img
               className="contacts-image"
-              src={process.env.PUBLIC_URL + "./images/github.png"}
+              src={process.env.PUBLIC_URL + "/images/github.png"}
               alt="Github"
             />
           </a>

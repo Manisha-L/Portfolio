@@ -133,7 +133,7 @@
     margin: 10px;
     border-bottom: none;
   }
-  .nav-itemLarge-active {
+  .nav-itemLarge:hover {
     border-bottom: white 3px solid;
   }
 
