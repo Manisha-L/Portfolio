@@ -25,7 +25,7 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
-            src={process.env.PUBLIC_URL + "/images/CSS.png"}
+            src={process.env.PUBLIC_URL + "/images/css.png"}
             className="Skills-image"
             alt="HTML"
           ></img>
