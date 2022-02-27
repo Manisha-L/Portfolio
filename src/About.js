@@ -15,8 +15,8 @@ const About = () => {
       <p data-aos="zoom-in" className="description">
         I'm a developer with passion towards Technology and focussed on building
         user interfaces of Web and Mobile Applications with JavaScript and
-        TypeScript using React and React Native. I like to keep upgrading myself
-        by learning new technologies to improve my knowledge.
+        TypeScript using React, Next.js and React Native. I like to keep
+        upgrading myself by learning new technologies to improve my knowledge.
       </p>
       <div className="education-wrapper">
         <h2 className="education-title">Education</h2>

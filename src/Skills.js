@@ -44,6 +44,15 @@ const Skills = () => {
         </li>
         <li className="Skills-listItem">
           <img
+            src={process.env.PUBLIC_URL + "/images/tailwind.png"}
+            className="Skills-image"
+            alt="Tailwind"
+          ></img>
+          <br />
+          <div className="SkillsImage-name">Tailwind CSS</div>
+        </li>
+        <li className="Skills-listItem">
+          <img
             src={process.env.PUBLIC_URL + "/images/javascript.png"}
             className="Skills-image"
             alt="JS"
@@ -61,6 +70,7 @@ const Skills = () => {
           <br />
           <div className="SkillsImage-name">TypeScript</div>
         </li>
+
         <li className="Skills-listItem">
           <img
             src={process.env.PUBLIC_URL + "/images/React.png"}
@@ -79,6 +89,15 @@ const Skills = () => {
           ></img>
           <br />
           <div className="SkillsImage-name">Redux</div>
+        </li>
+        <li className="Skills-listItem">
+          <img
+            src={process.env.PUBLIC_URL + "/images/next.png"}
+            className="Skills-image"
+            alt="NEXT"
+          ></img>
+          <br />
+          <div className="SkillsImage-name">Next.js</div>
         </li>
       </ul>
 

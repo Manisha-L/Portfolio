@@ -25,11 +25,17 @@
     flex-direction: column;
     align-items: center;
   }
+  .amazon {
+    width: 90%;
+    height: 330px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    position: relative;
+  }
   .budget {
     width: 90%;
     height: 330px;
     margin: 20px;
-    padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
     position: relative;
   }
@@ -37,20 +43,20 @@
     width: 90%;
     height: 330px;
     margin: 20px;
-    padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
     position: relative;
   }
+  .amazon-image,
   .budgetTracker-image,
   .musicPlayer-image {
     position: absolute;
     object-fit: cover;
     opacity: 0.1;
     z-index: -1;
-    width: 90%;
+    width: 100%;
     height: 100%;
   }
-
+  .amazon-title,
   .budget-title,
   .music-title {
     color: gold;
@@ -66,12 +72,19 @@
     padding: 0px 10px;
     text-align: center;
   }
+  .amazon-stack {
+    color: gold;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
   .stack {
     color: gold;
     padding: 0px 10px;
     text-align: center;
     font-size: 1.1rem;
   }
+  .amazon-button-container,
   .budget-button-container,
   .music-button-container {
     margin-top: 45px;
@@ -102,10 +115,12 @@
     margin: 30px 0px 20px 0px;
     font-size: 1.5rem;
   }
+  .amazon,
   .budget,
   .music {
     width: 50%;
   }
+  .amazon-button-container,
   .budget-button-container,
   .music-button-container {
     margin-top: 75px;
@@ -113,6 +128,9 @@
 
   .about-project {
     font-size: 1.2rem;
+  }
+  .amazon-stack {
+    font-size: 1rem;
   }
   .stack {
     font-size: 1.3rem;

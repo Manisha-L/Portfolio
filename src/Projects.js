@@ -18,6 +18,40 @@ const Projects = () => {
         experience in front-end
       </p>
       <div className="projects-wrapper">
+        <div data-aos="fade-left" className="amazon">
+          <img
+            src={process.env.PUBLIC_URL + "/images/Amazon-v2.png"}
+            className="amazon-image"
+            alt="AmazonImage"
+          />
+          <h1 className="amazon-title">Amazon-v2</h1>
+          <br />
+          <h3 className="about-project">
+            Amazon-v2 is an Amazon Shopping Site's clone version developed using
+            Next.js which provides functionality from sign up till payment
+            checkout.
+          </h3>
+          <br />
+
+          <p className="amazon-stack">
+            NEXT.JS, NEXTAUTH.JS, REDUX, STRIPE, WEBHOOKS, FIREBASE, TAILWIND
+            CSS
+          </p>
+
+          <div className="amazon-button-container">
+            <a
+              // CHANGE
+              href="https://manisha-l.github.io/Budget-Tracker/"
+              target="_blank"
+            >
+              <button className="project-buttons">Live website</button>
+            </a>
+            <a href="https://github.com/Manisha-L/Amazon-v2" target="_blank">
+              <button className="project-buttons">Github code</button>
+            </a>
+          </div>
+        </div>
+
         <div data-aos="fade-right" className="budget">
           <img
             src={process.env.PUBLIC_URL + "/images/BudgetTrackerImage.png"}
@@ -33,7 +67,7 @@ const Projects = () => {
           </h3>
           <br />
 
-          <p className="stack">TYPESCRIPT REACT</p>
+          <p className="stack">TYPESCRIPT, REACT</p>
 
           <div className="budget-button-container">
             <a
@@ -66,7 +100,7 @@ const Projects = () => {
           </h3>
           <br />
 
-          <p className="stack">JAVASCRIPT REACT-NATIVE</p>
+          <p className="stack">JAVASCRIPT, REACT-NATIVE</p>
           <div className="music-button-container">
             <a
               href="https://github.com/Manisha-L/Music-Player/blob/master/README.md"
