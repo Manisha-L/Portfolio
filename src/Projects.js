@@ -39,11 +39,7 @@ const Projects = () => {
           </p>
 
           <div className="amazon-button-container">
-            <a
-              // CHANGE
-              href="https://manisha-l.github.io/Budget-Tracker/"
-              target="_blank"
-            >
+            <a href="https://amazon-v2.isha-dev.com/" target="_blank">
               <button className="project-buttons">Live website</button>
             </a>
             <a href="https://github.com/Manisha-L/Amazon-v2" target="_blank">
