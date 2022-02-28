@@ -50,7 +50,7 @@ const Projects = () => {
 
         <div data-aos="fade-right" className="budget">
           <img
-            src={process.env.PUBLIC_URL + "/images/BudgetTrackerImage.png"}
+            src={process.env.PUBLIC_URL + "/images/BudgetImage.png"}
             className="budgetTracker-image"
             alt="BudgetTrackerImage"
           />
