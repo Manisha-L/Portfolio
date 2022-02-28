@@ -15,7 +15,7 @@ const Projects = () => {
 
       <p className="projects-description">
         Personal projects I have worked on to improve my skills and gain
-        experience in front-end.
+        experience.
       </p>
       <div className="projects-wrapper">
         <div data-aos="fade-left" className="amazon">
